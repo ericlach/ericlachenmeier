@@ -1,0 +1,128 @@
+@import "bootstrap";
+
+/* hero-unit */
+
+
+body {
+	padding-top: 70px;
+
+}
+
+.hero-unit {
+	height: 420px;
+
+	background-image: url(flying-car2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	  h1 {
+	  position: relative;
+	  top: -50px;
+	  font-size: 3em;
+	  color: white;
+	  }
+
+	  p {
+	  color: white;
+	  position: relative;
+	  top: -50px;
+	  }
+
+	  a {
+	  color: #33CCCC;
+	    &:hover {
+	    color: grey;
+	    text-decoration: none;
+	    }
+	  }
+}
+/* universal */
+
+html {
+	overflow-y: scroll;
+}
+
+section {
+	overflow: auto;
+}
+textarea {
+	resize: vertical;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+	line-height:1;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+h2 {
+	font-size: 1.7em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: left;
+	font-weight: normal;
+	color: #999;
+}
+
+p{
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+/* header */
+
+#logo {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+#logo:hover {
+	color: #33CCCC;
+	text-decoration: none;
+}
+
+/* footer */
+
+footer {
+	margin-top: 1px;
+	padding-top: 1px;
+	border-top: 2px solid #eaeaea;
+	color: #999;
+}
+
+footer a {
+	color: #555;
+}
+
+footer a:hover {
+	color: #33CCCC;
+	text-decoration: none;
+}
+
+footer small {
+	float: left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 10px;
+}
