@@ -21,12 +21,14 @@
     
   </head>
   <body>
-  <%= render 'layouts/header' %>
+    <div id="wrapper">
+      <%= render 'layouts/header' %>
   
-  <div class="container">
-    <%= yield %>
-    <%= render 'layouts/footer' %>
-  </div>
+      <div class="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+      </div>
+    </div>
 
   </body>
 </html>
